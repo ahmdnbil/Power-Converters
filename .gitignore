@@ -2,6 +2,20 @@
 # ignored folder
 slprj
 00-Electronics/slprj
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.aux
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.fdb_latexmk
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.fls
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.log
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.pdf
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.synctex.gz
+
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.aux
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.fdb_latexmk
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.fls
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.log
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.pdf
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.synctex.gz
+
 01-Harmonics/slprj
 02-PowerFactor/slprj
 03-AC-DC/slprj
