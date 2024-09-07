@@ -16,6 +16,20 @@ slprj
 00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.pdf
 00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.synctex.gz
 
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.aux
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.fdb_latexmk
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.fls
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.log
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.pdf
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.synctex.gz
+
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.aux
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.fdb_latexmk
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.fls
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.log
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.pdf
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.synctex.gz
+
 01-Harmonics/slprj
 02-PowerFactor/slprj
 03-AC-DC/slprj

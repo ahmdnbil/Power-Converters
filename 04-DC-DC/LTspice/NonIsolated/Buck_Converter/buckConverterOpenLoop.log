@@ -1,0 +1,42 @@
+Circuit: * D:\ME\EE\career\03-Power_Electronics\Simulation\04-DC-DC\LTspice\NonIsolated\Buck_Converter\buckConverterOpenLoop.asc
+
+WARNING: Node U1:N006 is floating.
+
+Direct Newton iteration for .op point succeeded.
+Heightened Def Con from 0.000300092 to 0.000300095
+Heightened Def Con from 0.000650078 to 0.000650081
+Heightened Def Con from 0.000700092 to 0.000700095
+Heightened Def Con from 0.000800091 to 0.000800094
+Heightened Def Con from 0.00125009 to 0.00125009
+Heightened Def Con from 0.00145009 to 0.00145009
+Heightened Def Con from 0.00245009 to 0.00245009
+Heightened Def Con from 0.00275009 to 0.0027501
+Heightened Def Con from 0.00345009 to 0.00345009
+Heightened Def Con from 0.00355009 to 0.00355009
+Heightened Def Con from 0.00380008 to 0.00380008
+Heightened Def Con from 0.00420008 to 0.00420009
+Heightened Def Con from 0.00430009 to 0.00430009
+Heightened Def Con from 0.00630009 to 0.0063001
+Heightened Def Con from 0.00650009 to 0.00650009
+Heightened Def Con from 0.00770009 to 0.00770009
+Heightened Def Con from 0.00775008 to 0.00775008
+Heightened Def Con from 0.00940009 to 0.00940009
+Heightened Def Con from 0.00945009 to 0.00945009
+
+Date: Tue Jul 30 19:34:46 2024
+Total elapsed time: 3.236 seconds.
+
+tnom = 27
+temp = 27
+method = modified trap
+totiter = 411164
+traniter = 411155
+tranpoints = 95764
+accept = 76089
+rejected = 19694
+matrix size = 29
+fillins = 12
+solver = Alternate
+Matrix Compiler1:     110 opcodes  0.6/[0.4]/0.9
+Matrix Compiler2: 2.56 KB object code size  0.3/0.4/[0.3]
+

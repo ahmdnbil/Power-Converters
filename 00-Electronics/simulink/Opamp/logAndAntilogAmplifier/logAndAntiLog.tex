@@ -1,0 +1,106 @@
+\documentclass{article}
+\usepackage{amsmath}
+\usepackage{amssymb}
+\usepackage{graphicx}
+\usepackage[a4paper,margin=.2in]{geometry}
+\begin{document}
+
+Log amplifier:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{logAmp1.jpg}
+\end{figure}
+\[
+V_{out}=-V_D
+\]
+
+\[
+I_R=I_D=\frac{V_{in}}{R}
+\]
+\[
+I_D=I_S(e^{\frac{V_d}{\eta .V_T}}-1)
+\]
+\(V_T\): thermal Voltage\\
+\(V_d\): forward Voltage of Diode\\
+\(\eta\): identity factor 
+\[
+V_T=\frac{K.T}{q}
+\]
+\(K\): Boltzman Constant 1.38x\(10^{-13}\) J/Kelvin\\
+\(T\): temperature of Diode\\
+\(q\): charge of electron 1.6*\(10^{-19}\) coulombs
+
+At T=300K, \(V_T\)=25.8mV
+\[
+I_D=I_S(e^{\frac{38.6*V_d}{\eta}}-1)
+\]
+\[
+I_D \thickapprox I_S.e^{\frac{38.6*V_d}{\eta}} 
+\]
+\[
+I_D \thickapprox I_S.e^{\frac{V_d}{\eta .V_T}}
+\]
+
+\[
+\ln{\frac{I_D}{I_S}} =\frac{V_d}{\eta .V_T}
+\] 
+
+\[
+V_d= \eta .V_T .\ln{\frac{I_D}{I_S}} 
+\]
+\[
+V_{out}=-V_d \qquad I_R=I_D=\frac{V_{in}}{R}
+\]
+\[
+\boxed{V_{out}=-\eta \cdot V_T \cdot \ln{\frac{V_{in}}{R \cdot I_S}}}
+\]
+
+anti-log amplifier:
+\begin{figure}[h]
+    \centering
+    \includegraphics*[width=.4\textwidth]{antiLogAmp1.jpg}
+\end{figure}
+By using same equations:
+\[
+\boxed{V_{out}\thickapprox - R \cdot I_S \cdot e^{\frac{V_{in}}{\eta \cdot V_T}}}
+\]
+\newpage
+due to identity factor \(\eta\) the output of log and anti-log not good
+\\so we gonna use transistor based not diode based
+
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{logAmp2.jpg}
+\end{figure}
+\[
+I_C=I_E=I_R=\frac{V_{in}}{R}
+\]
+
+\[
+V_{BE}=- V_{out}
+\]
+
+\[
+I_C=I_S(e^{\frac{V_{BE}}{V_T}}-1) \thickapprox I_S \cdot e^{\frac{V_{BE}}{V_T}} 
+\]
+
+\[
+V_{in} \thickapprox R\cdot I_S \cdot e^{\frac{ - V_{out}}{V_T}}  
+\]
+\[
+\ln{\frac{V_{in}}{R \cdot I_S }} \thickapprox - \frac{V_{out}}{V_T}
+\]
+\[
+\boxed{V_out \thickapprox - V_T \ln{\frac{V_{in}}{R \cdot I_S}}}
+\]
+
+anti-log based on transistor:
+\begin{figure}[h]
+    \centering
+    \includegraphics[width=.4\textwidth]{antiLogAmp2.png}
+\end{figure}
+By using same equations:
+\[
+\boxed{V_{out} \thickapprox -R \cdot I_S \cdot e^{\frac{V_{in}}{V_T}}}
+\]
+\end{document}

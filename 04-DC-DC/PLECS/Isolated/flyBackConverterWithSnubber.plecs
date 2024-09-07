@@ -49,7 +49,7 @@ Plecs {
   Schematic {
     Location      [0, 26; 1536, 788]
     ZoomFactor    1
-    SliderPosition [-1, 280]
+    SliderPosition [68, 280]
     ShowBrowser   off
     BrowserWidth  100
     Component {
@@ -2902,4 +2902,4 @@ Plecs {
     } 
   }
 }
-DemoSignature "nYoWYTikAPLGoMb9/3QSxn5qM+BtQvctYui1OOK5gMY="
+DemoSignature "6auuv8WfX7ijwNH5qZPcPwCPVMpW5iTGBVQMnIqSNjg="
