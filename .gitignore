@@ -1,15 +1,15 @@
 
-# ignored folder
+# simulink realted stuff
 **/slprj/
 **/*.slxc
-
-
-00-Electronics/01-Op-amp/TEX/**/*.*
-!00-Electronics/01-Op-amp/TEX/**/*.tex
-!00-Electronics/01-Op-amp/TEX/**/*.jpg
-00-Electronics/02-Oscillator/TEX/**/*.*
-!00-Electronics/02-Oscillator/TEX/**/*.tex
-!00-Electronics/02-Oscillator/TEX/**/*.jpg
-
-00-Electronics/LTspice/op-amps/*
-!00-Electronics/LTspice/op-amps/*.asc
+# latex related files
+**/*.aux
+**/*.fdb_latexmk
+**/*.fls
+**/*.log
+**/*.pdf
+**/*.synctex.gz
+# LTspice realted files
+**/*.log
+**/*.op.raw
+**/*.raw
