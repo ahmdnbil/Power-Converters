@@ -1,7 +1,8 @@
 
 # ignored folder
-slprj
-00-Electronics/slprj
+**/slprj/
+**/*.slxc
+
 
 00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.*
 !00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.tex
@@ -11,11 +12,3 @@ slprj
 !00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.tex
 00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.*
 !00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.tex
-
-
-02-PowerFactor/slprj
-03-AC-DC/slprj
-04-DC-DC/slprj
-05-DC-AC/slprj
-06-switchingTechnique/slprj
-/*.slxc
