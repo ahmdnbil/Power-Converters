@@ -4,11 +4,12 @@
 **/*.slxc
 
 
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.*
-!00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.tex
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.*
-!00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.tex
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.*
-!00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.tex
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.*
-!00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.tex
+00-Electronics/01-Op-amp/TEX/**/*.*
+!00-Electronics/01-Op-amp/TEX/**/*.tex
+!00-Electronics/01-Op-amp/TEX/**/*.jpg
+00-Electronics/02-Oscillator/TEX/**/*.*
+!00-Electronics/02-Oscillator/TEX/**/*.tex
+!00-Electronics/02-Oscillator/TEX/**/*.jpg
+
+00-Electronics/LTspice/op-amps/*
+!00-Electronics/LTspice/op-amps/*.asc
