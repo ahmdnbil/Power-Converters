@@ -2,35 +2,17 @@
 # ignored folder
 slprj
 00-Electronics/slprj
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.aux
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.fdb_latexmk
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.fls
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.log
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.pdf
-00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.synctex.gz
 
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.aux
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.fdb_latexmk
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.fls
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.log
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.pdf
-00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.synctex.gz
+00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.*
+!00-Electronics/simulink/Opamp/differentiatorEquations/differentiatorOpamp.tex
+00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.*
+!00-Electronics/simulink/Opamp/integratorEquations/integratorOpamp.tex
+00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.*
+!00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.tex
+00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.*
+!00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.tex
 
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.aux
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.fdb_latexmk
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.fls
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.log
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.pdf
-00-Electronics/simulink/Opamp/logAndAntilogAmplifier/logAndAntiLog.synctex.gz
 
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.aux
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.fdb_latexmk
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.fls
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.log
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.pdf
-00-Electronics/simulink/oscillator/RC_phase_shift/RC_phase_shift.synctex.gz
-
-01-Harmonics/slprj
 02-PowerFactor/slprj
 03-AC-DC/slprj
 04-DC-DC/slprj
